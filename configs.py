@@ -40,7 +40,7 @@ EMOJI_MODE = bool(environ.get('EMOJI_MODE', True))  # Emoji status On (True) / O
 # ⚠️ Attention: Do not change the reactions, otherwise bot reactions may stop working   
 REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
 #--------------------------------------------        
-ADMINS = list(map(int, getenv("ADMINS", "5518489725").split()))
+ADMINS = list(map(int, getenv("ADMINS", "7754709357").split()))
 #--------------------------------------------    
 DATABASE_URI = getenv("DATABASE_URI", "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Spidey")
